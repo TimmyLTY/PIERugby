@@ -1,0 +1,46 @@
+{
+  "total_detections": 13662,
+  "total_frames_with_detections": 904,
+  "frame_range": [
+    0,
+    903
+  ],
+  "feature_shape": [
+    13662,
+    256
+  ],
+  "detections_per_frame": {
+    "mean": 15.1,
+    "std": 2.2,
+    "min": 9,
+    "max": 20,
+    "median": 16.0
+  },
+  "confidence_scores": {
+    "mean": 0.774,
+    "std": 0.107,
+    "min": 0.5,
+    "max": 0.928,
+    "median": 0.806,
+    "q25": 0.708,
+    "q75": 0.86
+  },
+  "box_dimensions": {
+    "width_mean": 31.8,
+    "width_std": 11.8,
+    "height_mean": 65.0,
+    "height_std": 19.7,
+    "area_mean": 2209.0,
+    "aspect_ratio_mean": 0.5
+  },
+  "overlap_analysis": {
+    "total_intra_frame_pairs": 98569,
+    "high_iou_pairs_count": 56,
+    "duplicate_rate_pct": 0.06
+  },
+  "temporal_consistency": {
+    "count_cv": 0.145,
+    "missing_frame_count": 0,
+    "missing_frame_pct": 0.0
+  }
+}

@@ -1,0 +1,19 @@
+# Video files (too large for git)
+*.mp4
+*.avi
+*.webm
+*.mkv
+
+# Detection output (large binary files, regenerable)
+*.npy
+
+# MOT output (regenerable)
+det.txt
+
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
